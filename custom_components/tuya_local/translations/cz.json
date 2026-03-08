@@ -378,7 +378,8 @@
                         "state": {
                             "laundry": "Suché prádlo",
                             "purify": "Očistit",
-                            "continuous": "Nepřetržitý"
+                            "continuous": "Nepřetržitý",
+                            "manual": "Manuální"
                         }
                     }
                 }
@@ -456,6 +457,9 @@
                         }
                     }
                 }
+            },
+            "spray_level": {
+                "name": "Intenzita zvlhčování"
             }
         },
         "light": {
@@ -488,6 +492,9 @@
             },
             "rangehood_light": {
                 "name": "Osvětlení digestoře"
+            },
+            "tank_led": {
+                "name": "LED Zásobníku"
             }
         },
         "lock": {
@@ -1210,6 +1217,15 @@
             },
             "rangehood": {
                 "name": "Digestoř"
+            },
+            "warm_mist": {
+                "name": "Teplá pára"
+            },
+            "plasma": {
+                "name": "Plazma"
+            },
+            "night_mode": {
+                "name": "Noční režim"
             }
         },
         "text": {

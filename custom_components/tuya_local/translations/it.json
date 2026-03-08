@@ -378,7 +378,8 @@
                         "state": {
                             "laundry": "Asciuga biancheria",
                             "purify": "Purifica",
-                            "continuous": "Continuo"
+                            "continuous": "Continuo",
+                            "manual": "Manuale"
                         }
                     }
                 }
@@ -456,6 +457,9 @@
                         }
                     }
                 }
+            },
+            "spray_level": {
+                "name": "Intensità del vapore"
             }
         },
         "light": {
@@ -488,6 +492,9 @@
             },
             "rangehood_light": {
                 "name": "Luce della cappa"
+            },
+            "tank_led": {
+                "name": "LED del serbatoio"
             }
         },
         "lock": {
@@ -1210,6 +1217,15 @@
             },
             "rangehood": {
                 "name": "Cappa"
+            },
+            "warm_mist": {
+                "name": "Vapore caldo"
+            },
+            "plasma": {
+                "name": "Plasma"
+            },
+            "night_mode": {
+                "name": "Modalità notte"
             }
         },
         "text": {

@@ -1,4 +1,3 @@
-
 {
     "title": "ٹویا لوکل",
     "config": {
@@ -379,7 +378,8 @@
                         "state": {
                             "laundry": "خشک کپڑے",
                             "purify": "پاک کریں۔",
-                            "continuous": "مسلسل"
+                            "continuous": "مسلسل",
+                            "manual": "دستی"
                         }
                     }
                 }
@@ -457,6 +457,9 @@
                         }
                     }
                 }
+            },
+            "spray_level": {
+                "name": "بھاپ کی شدت"
             }
         },
         "light": {
@@ -489,6 +492,9 @@
             },
             "rangehood_light": {
                 "name": "رینج ہڈ لائٹ"
+            },
+            "tank_led": {
+                "name": "ٹینک LED"
             }
         },
         "lock": {
@@ -1211,6 +1217,15 @@
             },
             "rangehood": {
                 "name": "رینج ہڈ"
+            },
+            "warm_mist": {
+                "name": "گرم بھاپ"
+            },
+            "plasma": {
+                "name": "پلازما"
+            },
+            "night_mode": {
+                "name": "رات کا موڈ"
             }
         },
         "text": {

@@ -378,7 +378,8 @@
                         "state": {
                             "laundry": "Torka kläder",
                             "purify": "Rena",
-                            "continuous": "Kontinuerlig"
+                            "continuous": "Kontinuerlig",
+                            "manual": "Manuell"
                         }
                     }
                 }
@@ -456,6 +457,9 @@
                         }
                     }
                 }
+            },
+            "spray_level": {
+                "name": "Ångintensitet"
             }
         },
         "light": {
@@ -488,6 +492,9 @@
             },
             "rangehood_light": {
                 "name": "Fläktkåpeljus"
+            },
+            "tank_led": {
+                "name": "Tank-LED"
             }
         },
         "lock": {
@@ -1210,6 +1217,15 @@
             },
             "rangehood": {
                 "name": "Fläktkåpa"
+            },
+            "warm_mist": {
+                "name": "Varm ånga"
+            },
+            "plasma": {
+                "name": "Plasma"
+            },
+            "night_mode": {
+                "name": "Nattläge"
             }
         },
         "text": {

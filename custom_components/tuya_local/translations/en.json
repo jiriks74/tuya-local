@@ -378,7 +378,8 @@
                         "state": {
                             "laundry": "Dry clothes",
                             "purify": "Purify",
-                            "continuous": "Continuous"
+                            "continuous": "Continuous",
+                            "manual": "Manual"
                         }
                     }
                 }
@@ -456,6 +457,9 @@
                         }
                     }
                 }
+            },
+            "spray_level": {
+                "name": "Spray Level"
             }
         },
         "light": {
@@ -488,6 +492,9 @@
             },
             "rangehood_light": {
                 "name": "Rangehood light"
+            },
+            "tank_led": {
+                "name": "Tank LED"
             }
         },
         "lock": {
@@ -1210,6 +1217,15 @@
             },
             "rangehood": {
                 "name": "Rangehood"
+            },
+            "warm_mist": {
+                "name": "Warm Mist"
+            },
+            "plasma": {
+                "name": "Plasma"
+            },
+            "night_mode": {
+                "name": "Night Mode"
             }
         },
         "text": {

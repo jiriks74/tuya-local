@@ -396,6 +396,22 @@
             "nightlight": {
                 "name": "Llum nocturna"
             },
+            "tank_led": {
+                "name": "LED del dipòsit"
+            }
+        },
+        "sensor": {
+            "cooking_status": {
+                "state": {
+                    "wait": "En espera per a cuinar",
+                    "reservation": "En reserva",
+                    "cooking": "En curs",
+                    "cancel": "Cocció cancel·lada",
+                    "done": "Cocció completada",
+                    "pause": "Cocció en pausa"
+                },
+                "name": "Estat"
+            },
             "oven_light": {
                 "name": "Luz del horno"
             },
@@ -410,7 +426,8 @@
                         "state": {
                             "laundry": "Roba eixuta",
                             "purify": "Purifica",
-                            "continuous": "Continu"
+                            "continuous": "Continu",
+                            "manual": "Manual"
                         }
                     }
                 }
@@ -488,6 +505,9 @@
                         }
                     }
                 }
+            },
+            "spray_level": {
+                "name": "Intensitat de vapor"
             }
         },
         "lock": {
@@ -1210,6 +1230,15 @@
             },
             "rangehood": {
                 "name": "Campana extractora"
+            },
+            "warm_mist": {
+                "name": "Vapor calent"
+            },
+            "plasma": {
+                "name": "Plasma"
+            },
+            "night_mode": {
+                "name": "Mode nocturn"
             }
         },
         "text": {

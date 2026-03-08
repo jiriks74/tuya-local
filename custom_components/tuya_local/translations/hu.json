@@ -378,7 +378,8 @@
                         "state": {
                             "laundry": "DSzáraz ruhák",
                             "purify": "Tisztítás",
-                            "continuous": "Folyamatos"
+                            "continuous": "Folyamatos",
+                            "manual": "Kézi"
                         }
                     }
                 }
@@ -456,6 +457,9 @@
                         }
                     }
                 }
+            },
+            "spray_level": {
+                "name": "Gőzintenzitás"
             }
         },
         "light": {
@@ -488,6 +492,9 @@
             },
             "rangehood_light": {
                 "name": "Páraelszívó lámpa"
+            },
+            "tank_led": {
+                "name": "Tartály LED"
             }
         },
         "lock": {
@@ -1210,6 +1217,15 @@
             },
             "rangehood": {
                 "name": "Páraelszívó"
+            },
+            "warm_mist": {
+                "name": "Meleg pára"
+            },
+            "plasma": {
+                "name": "Plazma"
+            },
+            "night_mode": {
+                "name": "Éjszakai mód"
             }
         },
         "text": {

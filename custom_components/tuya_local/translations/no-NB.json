@@ -378,7 +378,8 @@
                         "state": {
                             "laundry": "Tørk klær",
                             "purify": "Rens",
-                            "continuous": "Kontinuerlig"
+                            "continuous": "Kontinuerlig",
+                            "manual": "Manuell"
                         }
                     }
                 }
@@ -456,6 +457,9 @@
                         }
                     }
                 }
+            },
+            "spray_level": {
+                "name": "Dampintensitet"
             }
         },
         "light": {
@@ -488,6 +492,9 @@
             },
             "rangehood_light": {
                 "name": "Kjøkkenhette lys"
+            },
+            "tank_led": {
+                "name": "Tank LED"
             }
         },
         "lock": {
@@ -1210,6 +1217,15 @@
             },
             "rangehood": {
                 "name": "Kjøkkenhette"
+            },
+            "warm_mist": {
+                "name": "Varm damp"
+            },
+            "plasma": {
+                "name": "Plasma"
+            },
+            "night_mode": {
+                "name": "Nattmodus"
             }
         },
         "text": {

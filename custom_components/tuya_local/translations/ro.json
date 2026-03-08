@@ -406,7 +406,8 @@
                     "preset_mode": {
                         "state": {
                             "purify": "Purificare",
-                            "dehumidify": "Dezumidificare"
+                            "dehumidify": "Dezumidificare",
+                            "manual": "Manual"
                         }
                     }
                 }
@@ -456,6 +457,9 @@
                         }
                     }
                 }
+            },
+            "spray_level": {
+                "name": "Intensitate abur"
             }
         },
         "light": {
@@ -488,6 +492,9 @@
             },
             "rangehood_light": {
                 "name": "Lumină hotă"
+            },
+            "tank_led": {
+                "name": "LED rezervor"
             }
         },
         "lock": {
@@ -1210,6 +1217,15 @@
             },
             "rangehood": {
                 "name": "Hotă"
+            },
+            "warm_mist": {
+                "name": "Abur cald"
+            },
+            "plasma": {
+                "name": "Plasmă"
+            },
+            "night_mode": {
+                "name": "Mod noapte"
             }
         },
         "text": {

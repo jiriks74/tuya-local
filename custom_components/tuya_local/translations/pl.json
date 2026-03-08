@@ -378,7 +378,8 @@
                         "state": {
                             "laundry": "Suszenie ubrania",
                             "purify": "Oczyszczanie",
-                            "continuous": "Ciągły"
+                            "continuous": "Ciągły",
+                            "manual": "Ręczny"
                         }
                     }
                 }
@@ -456,6 +457,9 @@
                         }
                     }
                 }
+            },
+            "spray_level": {
+                "name": "Intensywność pary"
             }
         },
         "light": {
@@ -488,6 +492,9 @@
             },
             "rangehood_light": {
                 "name": "Światło okapu"
+            },
+            "tank_led": {
+                "name": "LED zbiornika"
             }
         },
         "lock": {
@@ -1210,6 +1217,15 @@
             },
             "rangehood": {
                 "name": "Okap"
+            },
+            "warm_mist": {
+                "name": "Ciepła para"
+            },
+            "plasma": {
+                "name": "Plazma"
+            },
+            "night_mode": {
+                "name": "Tryb nocny"
             }
         },
         "text": {
