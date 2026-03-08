@@ -418,7 +418,9 @@
                         "state": {
                             "laundry": "Uscare rufe",
                             "purify": "Purificare",
-                            "continuous": "Continuu"
+                            "continuous": "Continuu",
+                            "manual": "Manual",
+                            "normal": "Normal"
                         }
                     }
                 }
@@ -513,6 +515,9 @@
                         }
                     }
                 }
+            },
+            "spray_level": {
+                "name": "Intensitate abur"
             }
         },
         "light": {
@@ -1459,6 +1464,12 @@
             },
             "watermark": {
                 "name": "Filigran"
+            },
+            "warm_mist": {
+                "name": "Abur cald"
+            },
+            "plasma": {
+                "name": "Plasmă"
             }
         },
         "text": {

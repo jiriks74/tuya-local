@@ -418,7 +418,8 @@
                         "state": {
                             "laundry": "Roupa seca",
                             "purify": "Purificar",
-                            "continuous": "Contínuo"
+                            "manual": "Manual",
+                            "normal": "Normal"
                         }
                     }
                 }
@@ -513,6 +514,9 @@
                         }
                     }
                 }
+            },
+            "spray_level": {
+                "name": "Intensidade de vapor"
             }
         },
         "light": {
@@ -1459,6 +1463,12 @@
             },
             "watermark": {
                 "name": "Marca d'água"
+            },
+            "warm_mist": {
+                "name": "Vapor quente"
+            },
+            "plasma": {
+                "name": "Plasma"
             }
         },
         "text": {

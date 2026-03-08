@@ -418,7 +418,8 @@
                         "state": {
                             "laundry": "Wäsche trocknen",
                             "purify": "Reinigen",
-                            "continuous": "Dauerbetrieb"
+                            "manual": "Manuell",
+                            "normal": "Normal"
                         }
                     }
                 }
@@ -513,6 +514,9 @@
                         }
                     }
                 }
+            },
+            "spray_level": {
+                "name": "Dampfintensität"
             }
         },
         "light": {
@@ -1459,6 +1463,12 @@
             },
             "watermark": {
                 "name": "Wasserzeichen"
+            },
+            "warm_mist": {
+                "name": "Warmer Dampf"
+            },
+            "plasma": {
+                "name": "Plasma"
             }
         },
         "text": {
